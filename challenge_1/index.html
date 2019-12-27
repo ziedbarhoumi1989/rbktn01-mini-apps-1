@@ -1,2 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>Tic Tac Toe</title>
+<meta charset="utf-8">
+<style>
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: red;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    grid-gap: 20px;
+  }
+
+  .item {
+    background-color: blue;
+    text-align: center;
+    padding: 40%;
+    font-weight: bold;
+  }
+</style>
+
+<body>
+  <h1 style="display: inline;">Player1</h1>
+  <input type="text" id='player1' required>
+  <br>
+  <h1 style="display: inline;">Player2</h1>
+  <input type="text" id='player2' required>
+
+  <button id="start">Start</button>
+  <button id='reset'>Reset</button>
+  <div class="players" style="width: 80%;height:100px;margin: auto;display: flex;">
+    <div class="player1">
+      <div id="name1"></div>
+      <div id="score1">0</div>
+    </div>
+    Vs
+    <div class="player2">
+      <div id="name2"></div>
+      <div id="score2">0</div>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
 
 
+
+
+</html>
