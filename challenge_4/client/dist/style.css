@@ -1,0 +1,10 @@
+body {
+    background-color: aqua;
+}
+#container {
+    margin:auto;
+    margin-top: 50px;
+    width: 700px;
+    height: 600px;
+    background-color: black;
+}
